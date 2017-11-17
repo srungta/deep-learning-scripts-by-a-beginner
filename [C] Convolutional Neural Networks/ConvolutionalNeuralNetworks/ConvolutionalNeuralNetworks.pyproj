@@ -26,10 +26,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ConvolutionalNeuralNetworks.py" />
+    <Compile Include="HandyScripts\ImageHelper.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HandyScripts\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RoughSpace\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
     <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HandyScripts\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

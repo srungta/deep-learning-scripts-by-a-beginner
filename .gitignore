@@ -101,3 +101,9 @@ ENV/
 .mypy_cache/
 
 .vs
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.jpg
