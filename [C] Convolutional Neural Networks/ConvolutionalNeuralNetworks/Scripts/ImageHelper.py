@@ -11,3 +11,6 @@ def show_image(bnwimage, stream):
 
 def get_image(filename):
     return mpimg.imread(filename)
+
+def save_image(filename, img, stream):
+    mpimg.imsave(filename, img,cmap = plt.get_cmap(stream))

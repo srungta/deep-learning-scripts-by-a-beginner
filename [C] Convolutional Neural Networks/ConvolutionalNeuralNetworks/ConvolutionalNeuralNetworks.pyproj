@@ -26,15 +26,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ConvolutionalNeuralNetworks.py" />
+    <Compile Include="Enums\Filters.py" />
+    <Compile Include="Enums\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HandyScripts\ImageHelper.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="HandyScripts\__init__.py">
+    <Compile Include="Scripts\Convolutions.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="RoughSpace\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Scripts\ImageHelper.py" />
+    <Compile Include="Scripts\__init__.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
@@ -42,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HandyScripts\" />
+    <Folder Include="Enums\" />
+    <Folder Include="RoughSpace\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
