@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TensorFlow", "TensorFlow.pyproj", "{DBF3A893-531C-46D5-B72D-FDA0E8B5B5CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF3A893-531C-46D5-B72D-FDA0E8B5B5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF3A893-531C-46D5-B72D-FDA0E8B5B5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EE74B7F-86E9-477B-9635-3ADD29C871C3}
+	EndGlobalSection
+EndGlobal
