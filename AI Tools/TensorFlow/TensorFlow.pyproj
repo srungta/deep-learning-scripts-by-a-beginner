@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="linear_regression.py" />
+    <Compile Include="mnist_classifier.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TensorFlow.py" />
   </ItemGroup>
   <ItemGroup>
