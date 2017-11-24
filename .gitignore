@@ -107,3 +107,5 @@ ENV/
 *.userosscache
 *.sln.docstates
 *.jpg
+/AI Tools/TensorFlow/out
+/MNIST_data
